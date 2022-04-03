@@ -1,0 +1,26 @@
+img {
+    width: 200px;
+}
+
+h1 {
+    background: #af3434;
+    color: #14d94c;
+}
+
+p {
+    background: blue;
+    color: black;
+}
+
+h2 {
+    background: silver;
+}
+
+a {
+    color: brown;
+}
+
+ul {
+    background: chartreuse;
+    color: #23221f;
+}
