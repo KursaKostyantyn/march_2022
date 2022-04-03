@@ -1,0 +1,25 @@
+img {
+    width: 300px;
+    background: darkslategray;
+}
+h1 {
+    background: brown;
+    color: blue;
+}
+h2 {
+    background: chartreuse;
+}
+a {
+    color: aqua;
+}
+p {
+    background: bisque;
+    color: darkmagenta;
+}
+ul {
+    background: darkolivegreen;
+}
+li {
+    background: burlywood;
+    color: darkblue;
+}
