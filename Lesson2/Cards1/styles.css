@@ -1,0 +1,67 @@
+.container {
+    width: 800px;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+}
+
+.header {
+    width: calc(100% * 0.9);
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    font-size: 20px;
+}
+
+.txt {
+    width: calc(100% * 0.9);
+    height: 100px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 10px;
+
+
+}
+
+.footer {
+    width: calc(100% * 0.9);
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: calc(50%);
+    height: 30px;
+
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
