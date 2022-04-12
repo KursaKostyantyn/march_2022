@@ -1,0 +1,26 @@
+.container {
+    width: 700px;
+    height: 100vh;
+    background: silver;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.widgets {
+    width: 100%;
+    background: blue;
+    height: 250px;
+}
+.widgets-box {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background: chartreuse;
+}
+.widget {
+    height: 100%;
+    width: calc(100%/3);
+    background: black;
+}
