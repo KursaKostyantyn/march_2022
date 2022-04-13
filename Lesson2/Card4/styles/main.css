@@ -1,0 +1,80 @@
+.body {
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    height: 700px;
+    background: #35cd9f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 330px;
+    height: 430px;
+    background: black;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fa-quote-right {
+    display: block;
+    font-size: 30px;
+    color: #35cd9f;
+}
+
+.icon {
+    width: 330px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    width: 330px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+}
+.footer {
+    width: 330px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.name {
+    width: 330px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: #35cd9f;
+
+}
