@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+ .container {
+     width: 800px;
+     height: 500px;
+     background: #08bcd4;
+
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+
+
+ }
+
+ .card {
+     width: 300px;
+     height: 320px;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ .block-box {
+     width: 100%;
+     height: 90px;
+     background: white;
+
+     display: flex;
+
+     border-radius: 10px;
+ }
+
+ .icon {
+     width: 80px;
+     height: 100%;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .header {
+     width: 220px;
+     height: 30px;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     color: #e9912c;
+
+ }
+
+ .txt {
+     width: 220px;
+     height: 60px;
+
+     font-size: 12px;
+     line-height: 12px;
+ }
+
+ .fa-pen-to-square {
+     display: block;
+     font-size: 30px;
+ }
+
+ .fa-crop {
+     display: block;
+     font-size: 30px;
+ }
+
+ .fa-address-card {
+     display: block;
+     font-size: 30px;
+ }
+
+ .fa-code {
+     display: block;
+     font-size: 30px;
+ }
+
+ .fa-wordpress {
+     display: block;
+     font-size: 30px;
+ }
+
+ .fa-buysellads {
+     display: block;
+     font-size: 30px;
+ }
