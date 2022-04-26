@@ -56,17 +56,17 @@ alert(o)*/
 // document.writeln(book)
 // console.log(book)
 //
-// let book2 = {
-//     name: 'some book',
-//     pages: 950,
-//     ganre: 'docu',
-//     authors: ["Ivan", "Semen", "Dmitro"]
-// }
-//
-// console.log(book2)
-// console.log(book2.ganre)
-// console.log(book2['ganre'])
-// console.log(book2.authors[1])
+let book2 = {
+    name: 'some book',
+    pages: 950,
+    ganre: 'docu',
+    authors: ["Ivan", "Semen", "Dmitro"]
+}
+
+console.log(book2)
+console.log(book2.ganre)
+console.log(book2['ganre'])
+console.log(book2.authors[1])
 //
 // let firstName = 'Kursa'
 // let middleName = 'Oleksiyovich'
