@@ -177,3 +177,158 @@
 // }
 // change(array)
 // console.log(array);
+
+
+// `Всі функції повинні бути описані стрілочним типом!!!!
+//     - створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
+// let minimum = (a,b,c) => {
+//     if (a<b && a<c) {
+//         console.log(a)
+//     } else if (b<a && b<c) {
+//         console.log(b)
+//     } else {
+//         console.log(c)
+//     }
+// }
+//
+// minimum(-2,-5,1)
+
+// - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
+// let maximum = (a,b,c) => {
+//     if (a>b && a>c) {
+//         console.log(a)
+//     } else if (b>a && b>c) {
+//         console.log(b)
+//     } else {
+//         console.log(c)
+//     }
+// }
+//
+// maximum(55,58,9)
+
+
+// - створити функцію яка повертає найбільше число з масиву
+// let maximum = (arr) => {
+//     let max = arr[0]
+//     for (let item of arr) {
+//         if (item> max) {
+//             max = item
+//         }
+//     }
+//     return max
+// }
+//
+// console.log(maximum([1,5,6,7,9,0,-4]))
+
+// - створити функцію яка повертає найменьше число з масиву
+// let minimum = (arr) => {
+//     let min = arr[0]
+//     for (let item of arr) {
+//         if (min > item) {
+//             min = item
+//         }
+//     }
+//     return min
+// }
+//
+// console.log(minimum([1,5,6,7,9,0,-4]))
+
+
+// - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+// let suma = (arr) =>{
+//     let sum = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         sum +=arr[i]
+//     }
+//     return sum
+// }
+//
+// console.log(suma([1,2,10]))
+
+
+// - Дано натуральное число n. Выведите все числа от 1 до n.
+// let row = (n) => {
+//     for (let i = 1; i <= n; i++) {
+//         console.log(i)
+//     }
+// }
+// row(7)
+
+// - Даны два целых числа A и В . Выведите все числа от A до B включительно, в порядке возрастания, если A < B,
+// или в порядке убывания в противном случае.
+// let orderedRow = (a, b) => {
+//     if (a < b) {
+//         for (let i = a; i <= b; i++)
+//         {
+//             console.log(i)
+//         }
+//     } else if (b < a) {
+//         for (let i = b; i <= a; i++) {
+//             console.log(i)
+//         }
+//     } else {
+//         console.log(`a and b are equal`)
+//     }
+//
+// }
+//
+// orderedRow(1,6)
+// orderedRow(15,10)
+// orderedRow(5,5)
+
+
+// -   функція Приймає масив та число "i", та міняє місцями об`єкт який знаходиться в індексі "i" на "i+1"
+//   EXAMPLE:
+//   foo([9,8,0,4], 0) // ==> [ 8, 9, 0, 4 ]
+//   foo([9,8,0,4], 1) // ==> [ 9 ,0, 8, 4 ]
+//   foo([9,8,0,4], 2) // ==> [ 9, 8, 4, 0 ]
+// let change = (arr, i) => {
+//     if (i >= arr.length || i + 1 >= arr.length) {
+//         console.log(`WTF`)
+//         return arr
+//     }
+//     let temp = arr[i]
+//     arr[i] = arr[i + 1]
+//     arr[i + 1] = temp
+//     return arr
+// }
+//
+// console.log(change([9, 8, 0, 4], 0));
+// console.log(change([9, 8, 0, 4], 1));
+// console.log(change([9, 8, 0, 4], 2));
+// console.log(change([9, 8, 0, 4], 3));
+
+
+//
+// - Сворити функцію яка буде переносити елементи з значенням 0 у кінець маисву.
+// Зберігаючи при цьому порядок не нульових значень.
+// Двожина масиву від 2 до 100
+// EXAMPLE:
+// [1,0,6,0,3] => [1,6,3,0,0]
+// [0,1,2,3,4] => [1,2,3,4,0]
+// [0,0,1,0]   => [1,0,0,0]`
+// let change =(arr) => {
+//     let i =0
+//     let count =0
+//     let temp =0
+//     while (i < arr.length-count) {
+//         if (arr[i] === 0 ) {
+//             temp = arr[i]
+//             for (let j = i; j < arr.length - 1; j++) {
+//                 arr[j] = arr[j + 1]
+//             }
+//             arr[arr.length - 1] = temp
+//             count +=1
+//             i = 0
+//         } else {
+//             i++
+//         }
+//     }
+//     return arr
+// }
+// [1,0,6,0,3] => [1,6,3,0,0]
+// [0,1,2,3,4] => [1,2,3,4,0]
+// [0,0,1,0]   => [1,0,0,0]`
+// console.log(change([0, 0, 1, 0]))
+// console.log(change([0,1,2,3,4]))
+// console.log(change([1,0,6,0,3]))
