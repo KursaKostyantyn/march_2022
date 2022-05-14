@@ -150,40 +150,40 @@
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
-
-class Cinderela {
-    constructor(name, age, size) {
-        this.name = name;
-        this.age = age;
-        this.size = size
-    }
-    info(){
-        console.log(this);;
-    }
-}
-
-class Prince {
-    constructor(name, age, size) {
-        this.name = name;
-        this.age = age;
-        this.size = size
-    }
-    findCinderela(cinderelas) {
-        for (let i = 0; i < cinderelas.length; i++) {
-            if(cinderelas[i].size === newPrince.size){
-                console.log(`we found the match: `);
-                cinderelas[i].info()
-            }
-        }
-    }
-}
-
-const cinderelas = []
-
-for (let i = 0; i < 10; i++) {
-    cinderelas.push(new Cinderela(`Galya${i + 1}`, `${18 + i}`, `${36 + i}`))
-}
-console.log(cinderelas);
-const newPrince = new Prince(`Kolya`, `22`, `40`)
-newPrince.findCinderela(cinderelas)
-console.log(cinderelas.find(value => value.size === newPrince.size));
+//
+// class Cinderela {
+//     constructor(name, age, size) {
+//         this.name = name;
+//         this.age = age;
+//         this.size = size
+//     }
+//     info(){
+//         console.log(this);;
+//     }
+// }
+//
+// class Prince {
+//     constructor(name, age, size) {
+//         this.name = name;
+//         this.age = age;
+//         this.size = size
+//     }
+//     findCinderela(cinderelas) {
+//         for (let i = 0; i < cinderelas.length; i++) {
+//             if(cinderelas[i].size === newPrince.size){
+//                 console.log(`we found the match: `);
+//                 cinderelas[i].info()
+//             }
+//         }
+//     }
+// }
+//
+// const cinderelas = []
+//
+// for (let i = 0; i < 10; i++) {
+//     cinderelas.push(new Cinderela(`Galya${i + 1}`, `${18 + i}`, `${36 + i}`))
+// }
+// console.log(cinderelas);
+// const newPrince = new Prince(`Kolya`, `22`, `40`)
+// newPrince.findCinderela(cinderelas)
+// console.log(cinderelas.find(value => value.size === newPrince.size));
