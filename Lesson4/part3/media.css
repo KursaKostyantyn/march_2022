@@ -1,0 +1,14 @@
+@media screen and (max-width: 800px){
+    .main-container {
+        flex-direction: column;
+    }
+
+    .bcdefg-container {
+        width: 100%;
+    }
+
+    .h {
+        width: 100%;
+    }
+
+}

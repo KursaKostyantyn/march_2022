@@ -1,0 +1,24 @@
+@media screen  and (max-width: 800px){
+    .main-container {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .seconcontainer {
+        width: 100%;
+        height: 80%;
+    }
+
+    .b {
+        height: 80%;
+    }
+    .cde-container {
+        height: 20%;
+    }
+
+    .f{
+        width: 100%;
+        height: 20%;
+    }
+
+}
