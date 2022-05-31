@@ -1,0 +1,10 @@
+.postContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.post {
+    width: 20%;
+    border: 1px solid black;
+
+}
