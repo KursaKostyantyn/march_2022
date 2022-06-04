@@ -1,0 +1,15 @@
+.userContainerDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.userDiv {
+    width: 50%;
+    background: lightblue;
+    margin: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+

@@ -1,0 +1,20 @@
+.postDetailsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.postDetail {
+    background: black;
+    margin: 10px;
+    width: 25%;
+    color: #fdfdfd;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.postDetailDiv {
+    background: red;
+    font-weight: bold;
+}

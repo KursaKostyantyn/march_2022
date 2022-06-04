@@ -1,0 +1,42 @@
+.postTitle {
+    height: calc(100% - 22px);
+    font-weight: bold;
+
+}
+
+.userDetail {
+    background: blue;
+}
+
+.postTitlesDiv {
+    background: yellow;
+}
+
+.userDetailsButton {
+    width: 90%;
+}
+
+.userDetailsForm {
+    display: flex;
+    justify-content: center;
+}
+
+.postTitlesContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.postTitlesDiv {
+    width: 25%;
+    margin: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.divForButtonPost {
+    height: 22px;
+    display: flex;
+    justify-content: center;
+}
