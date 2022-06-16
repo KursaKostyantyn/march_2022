@@ -1,0 +1,31 @@
+//Homework1
+// db.users.find()
+// db.users.find({age: {$lt:20}})
+// db.users.find({
+//     $or:[{parents:'Tamara'},{parents:'Petro'}]
+// })
+// db.users.find({
+//     $and:[{parents:'Alina'},{parents:'Petro'}]
+// })
+// db.users.find({studying: 'js'})
+// db.users.find({studying:{$size:1}})
+// db.users.updateMany(
+//     {studying: {$size:1}},
+//     {$push: {studying:'java'}}
+//     )
+// db.users.find({_id: ObjectId('62a86bc7294d1b7a8b599c4f')})
+// db.users.find({
+//     $and:[{'address.house':{$gte:1}},{'address.house':{$lte:20}}]
+// })
+// db.users.find({'address.house':{$gte:20}})
+// db.users.find({'address.street': /.* .*/})
+// db.users.deleteMany({
+//     studying: {$exists:0}
+// })
+// db.users.find({parents:/.*na/i})
+// db.users.updateMany(
+//     {studying:{$nin:['python']}},
+//     {$push: {studying:'python'}}
+// )
+// db.users.find({studying:{$nin:['python']}})
+// db.users.find().sort({rating: -1, 'address.flat':-1})
